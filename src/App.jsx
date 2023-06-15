@@ -8,7 +8,14 @@ function App() {
   console.log(puppies);
 
   return (
-    
+    <>
+      <h1>Vite + React</h1>
+      <div className="card">
+        <button onClick={() => setPuppies((count) => count + 1)}>
+          count is {puppies}
+        </button>
+      </div>
+    </>
   )
 }
 
